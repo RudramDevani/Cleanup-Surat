@@ -29,7 +29,8 @@ const PLANS = [
 const EVENTS = [
   { title: "Weekly Sunday cleanup drive", when: "Every Sunday", where: "Location announced on WhatsApp and Instagram", note: "Gloves, water bottle, hat and mask recommended." },
 ];
-const GALLERY = [{ src: "/gallery/river-cleanup.jpg", alt: "Volunteers segregating bottles and cans on the Tapi riverbank" }];
+const GALLERY = [{ src: "/gallery/river-cleanup.jpg", alt: "Volunteers segregating bottles and cans on the Tapi riverbank" }
+                 { src: "/gallery/Cleanup-image-01", alt: "Volunteers Photo after Drive" }];
 // Add more photos: drop files in public/gallery and list them above.
 
 const Hero = ({ title, sub }) => (
